@@ -18,6 +18,7 @@ Mysql
  Senha:root
 
 1 - clone o projeto
+https://github.com/DanielSiqueira/xy-inc.git
 
 2 - Execute os scripts no Mysql
 CREATE DATABASE `dbtestezup`;
