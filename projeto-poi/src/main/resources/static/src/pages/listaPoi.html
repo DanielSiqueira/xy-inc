@@ -1,0 +1,19 @@
+<div class="col-md-offset-1 col-md-10 text-center">
+  <h1>Lista de POIs</h1>
+   <table class="table table-striped " ng-show="listaPoi.length > 0">
+      <thead>
+        <tr>
+          <th class="text-center">Nome</th>
+          <th class="text-center">CoordenadaX</th>
+          <th class="text-center">CoordenadaY</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="poi in listaPoi">
+          <td>{{ poi.nome }}</td>
+          <td>{{ poi.coordenadaX }}</td>
+          <td>{{ poi.coordenadaY }}</td>
+        </tr>
+      </tbody>
+    </table>
+</div>

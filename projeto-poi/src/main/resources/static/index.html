@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapp">
+<head>
+  <meta charset="UTF-8">
+  <title>XY-Inc</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/ng-notify.min.css">
+  
+
+ <base href="/">
+</head>
+<body >
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">XY Inc</a>
+      </div>
+      <div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#/">Lista de POIs</a></li>
+          <li><a href="#/cadastro">Casdastro</a></li>
+          <li><a href="#/proximos">POIs por proximidade</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <ng-view></ng-view>
+
+  <script src="js/angular.min.js"></script>
+  <script src="js/angular-route.min.js"></script>
+  <script src="js/ng-notify.min.js"></script>
+  
+  <script src="src/index.js"></script>
+  <script src="src/util/util.service.js"></script>
+  <script src="src/controller/poi.controller.js"></script>
+</body>
+</html>
