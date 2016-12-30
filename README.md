@@ -32,7 +32,7 @@ CREATE TABLE `tb_poi` (
 ) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
 
 3 - Execute o comando dentro da pasta do projeto
-mvn clean package & java -jar target/xy-inc.jar
+mvn clean package & java -jar projeto-poi/target/xy-inc.jar
 
 3- Acesse o endereço abaixo
 http://localhost:8080/
